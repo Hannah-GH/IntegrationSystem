@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/ShortMessageNotificationSystem.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/activation.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/antlr.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/avalon-framework.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/commons-logging.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/concurrent.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/ejb3-persistence.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/FastInfoset.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/getopt.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/gmbal-api-only.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/ha-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/hibernate-annotations.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jacorb.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/javassist.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/javax.annotation-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/javax.xml.soap-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxb-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxb-core.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxb-impl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxb-jxc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxb-xjc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxws-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxws-rt.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jaxws-tools.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-aop-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-appclient.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-aspect-jdk50-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-common-core.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployers-client-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployers-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployers-core-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployers-core.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployers-vfs-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployers-vfs.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-deployment.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-common-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-core-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-ext-api-impl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-ext-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-proxy-clustered-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-proxy-impl-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-proxy-spi-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-security-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ha-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-ha-legacy-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-iiop-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-integration.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-j2se.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-jaspi-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-javaee.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-jsr77-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-logging-jdk.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-logging-log4j.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-logging-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-main-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-mdr.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-messaging-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-metadata.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-remoting.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-security-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-serialization.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-srp-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-system-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-system-jmx-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jboss-xml-binding.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossall-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbosscx-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossjmx-ant.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossjts-integration.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossjts.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbosssx-as-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbosssx-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-common.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-framework.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-jboss50.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-native-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-native-core.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-native-jaxrpc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-native-jaxws-ext.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-native-jaxws.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-native-saaj.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jbossws-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jettison.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jmx-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jmx-invoker-adaptor-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jnp-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/jsr181-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/log4j.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/logkit.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/mail.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/management-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/mimepull.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/policy.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/resolver.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/saaj-impl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/scout.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/slf4j-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/slf4j-jboss-logging.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/stax-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/stax-ex.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/stax2-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/streambuffer.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/trove.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/woodstox-core-asl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/wsdl4j.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/wstx.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jms-lib/xmlsec.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="dom4j-1.6.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ShortMessageNotificationSystem.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ShortMessageNotificationSystem.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activation.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/activation.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="antlr.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/antlr.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="avalon-framework.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/avalon-framework.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="concurrent.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/concurrent.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejb3-persistence.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/ejb3-persistence.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="FastInfoset.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/FastInfoset.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="getopt.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/getopt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gmbal-api-only.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/gmbal-api-only.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ha-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/ha-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-annotations.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/hibernate-annotations.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jacorb.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jacorb.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javassist.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/javassist.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.annotation-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/javax.annotation-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.xml.soap-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/javax.xml.soap-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxb-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-core.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxb-core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-impl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxb-impl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-jxc.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxb-jxc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-xjc.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxb-xjc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxws-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxws-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxws-rt.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxws-rt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxws-tools.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jaxws-tools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-aop-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-aop-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-appclient.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-appclient.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-aspect-jdk50-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-aspect-jdk50-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-common-core.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-common-core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployers-client-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployers-client-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployers-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployers-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployers-core-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployers-core-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployers-core.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployers-core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployers-vfs-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployers-vfs-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployers-vfs.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployers-vfs.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-deployment.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-deployment.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-common-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-common-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-core-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-core-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-ext-api-impl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-ext-api-impl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-ext-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-ext-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-proxy-clustered-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-proxy-clustered-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-proxy-impl-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-proxy-impl-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-proxy-spi-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-proxy-spi-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3-security-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ejb3-security-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ha-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ha-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ha-legacy-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-ha-legacy-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-iiop-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-iiop-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-integration.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-integration.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-j2se.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-j2se.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jaspi-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-jaspi-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-javaee.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-javaee.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jsr77-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-jsr77-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-logging-jdk.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-logging-jdk.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-logging-log4j.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-logging-log4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-logging-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-logging-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-main-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-main-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-mdr.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-mdr.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-messaging-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-messaging-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-metadata.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-metadata.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-remoting.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-remoting.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-security-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-security-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-serialization.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-serialization.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-srp-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-srp-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-system-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-system-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-system-jmx-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-system-jmx-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-xml-binding.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jboss-xml-binding.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossall-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossall-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbosscx-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbosscx-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossjmx-ant.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossjmx-ant.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossjts-integration.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossjts-integration.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossjts.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossjts.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbosssx-as-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbosssx-as-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbosssx-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbosssx-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-common.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-framework.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-framework.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-jboss50.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-jboss50.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-native-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-native-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-native-core.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-native-core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-native-jaxrpc.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-native-jaxrpc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-native-jaxws-ext.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-native-jaxws-ext.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-native-jaxws.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-native-jaxws.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-native-saaj.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-native-saaj.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jbossws-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jettison.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jettison.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmx-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jmx-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmx-invoker-adaptor-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jmx-invoker-adaptor-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jnp-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jnp-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsr181-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/jsr181-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/log4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="logkit.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/logkit.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/mail.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="management-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/management-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mimepull.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/mimepull.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="policy.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/policy.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="resolver.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/resolver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="saaj-impl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/saaj-impl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="scout.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/scout.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/slf4j-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-jboss-logging.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/slf4j-jboss-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="stax-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/stax-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="stax-ex.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/stax-ex.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="stax2-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/stax2-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="streambuffer.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/streambuffer.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="trove.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/trove.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="woodstox-core-asl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/woodstox-core-asl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="wsdl4j.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/wsdl4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="wstx.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/wstx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlsec.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jms-lib/xmlsec.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
