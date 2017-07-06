@@ -18,7 +18,7 @@ import javax.xml.ws.ResponseWrapper;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "BankPort", targetNamespace = "http://bank/")
+@WebService(name = "BankPort", targetNamespace = "http://banksystem/")
 @XmlSeeAlso({
     ObjectFactory.class
 })
@@ -36,8 +36,8 @@ public interface BankPort {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-    @RequestWrapper(localName = "transfer", targetNamespace = "http://bank/", className = "retail.bank.Transfer")
-    @ResponseWrapper(localName = "transferResponse", targetNamespace = "http://bank/", className = "retail.bank.TransferResponse")
+    @RequestWrapper(localName = "transfer", targetNamespace = "http://banksystem/", className = "retail.bank.Transfer")
+    @ResponseWrapper(localName = "transferResponse", targetNamespace = "http://banksystem/", className = "retail.bank.TransferResponse")
     @Action(input = "http://bank/BankPort/transferRequest", output = "http://bank/BankPort/transferResponse")
     public boolean transfer(
             @WebParam(name = "account", targetNamespace = "")
@@ -58,8 +58,8 @@ public interface BankPort {
      */
     @WebMethod
     @WebResult(name = "recordList", targetNamespace = "")
-    @RequestWrapper(localName = "listHistory", targetNamespace = "http://bank/", className = "retail.bank.ListHistory")
-    @ResponseWrapper(localName = "listHistoryResponse", targetNamespace = "http://bank/", className = "retail.bank.ListHistoryResponse")
+    @RequestWrapper(localName = "listHistory", targetNamespace = "http://banksystem/", className = "retail.bank.ListHistory")
+    @ResponseWrapper(localName = "listHistoryResponse", targetNamespace = "http://banksystem/", className = "retail.bank.ListHistoryResponse")
     @Action(input = "http://bank/BankPort/listHistoryRequest", output = "http://bank/BankPort/listHistoryResponse")
     public List<Record> listHistory(
             @WebParam(name = "account", targetNamespace = "")

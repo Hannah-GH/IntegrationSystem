@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 各个独立系统的配置文件 -->
+<config>
+	<replaces>
+		<pair>
+			<!-- 远程GroupPurchase地址 -->
+			<key>GP_REMOTE</key>
+			<value>127.0.0.1</value>
+		</pair>
+
+		<pair>
+			<!-- 本地Independent Systems地址 -->
+			<key>ISYS_LOCAL</key>
+			<value>127.0.0.1</value>
+		</pair>
+
+		<pair>
+			<!-- JMS服务器地址 -->
+			<key>JMS</key>
+			<value>127.0.0.1</value>
+		</pair>
+	</replaces>
+
+
+	<!-- 开始调试模式 -->
+	<debug>
+		false
+	</debug>
+	
+	<!-- 银行系统提供的WSDL地址 -->
+	<bankwsdl>
+		http://localhost:8081/banksystem
+	</bankwsdl>
+
+	<!-- 向外提供的团购管理系统WSDL地址 -->
+	<gpmswsdl>
+		http://GP_REMOTE:8085/ws/gpms
+	</gpmswsdl>
+
+	<!-- RMI所使用的监听地址与端口 -->
+	<rmi>rmi://:8809/gpms</rmi>
+	<rmiport>8809</rmiport>
+
+	<!-- jms配置 -->
+	<jnpuri>jnp://JMS:1099</jnpuri>
+	<queuename>shortmessage</queuename>
+</config>

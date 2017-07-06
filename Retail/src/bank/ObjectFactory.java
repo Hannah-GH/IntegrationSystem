@@ -24,10 +24,10 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _ListHistoryResponse_QNAME = new QName("http://bank/", "listHistoryResponse");
-    private final static QName _Transfer_QNAME = new QName("http://bank/", "transfer");
-    private final static QName _TransferResponse_QNAME = new QName("http://bank/", "transferResponse");
-    private final static QName _ListHistory_QNAME = new QName("http://bank/", "listHistory");
+    private final static QName _ListHistoryResponse_QNAME = new QName("http://banksystem/", "listHistoryResponse");
+    private final static QName _Transfer_QNAME = new QName("http://banksystem/", "transfer");
+    private final static QName _TransferResponse_QNAME = new QName("http://banksystem/", "transferResponse");
+    private final static QName _ListHistory_QNAME = new QName("http://banksystem/", "listHistory");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: retail.bank
