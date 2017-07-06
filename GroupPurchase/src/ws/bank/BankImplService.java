@@ -12,12 +12,12 @@ import java.net.URL;
  * source version: 2.2
  * 
  */
-@WebServiceClient(name = "BankImplService", targetNamespace = "http://bank/") // wsdlLocation = "http://localhost:8082/ws/bank?wsdl"
+@WebServiceClient(name = "BankImplService", targetNamespace = "http://banksystem/") // wsdlLocation = "http://localhost:8082/ws/bank?wsdl"
 public class BankImplService extends Service {
 	private final static URL BANKIMPLSERVICE_WSDL_LOCATION;
 	private final static WebServiceException BANKIMPLSERVICE_EXCEPTION;
 	private final static QName BANKIMPLSERVICE_QNAME = new QName(
-			"http://bank/", "BankImplService");
+			"http://banksystem/", "BankImplService");
 
 	static {
 		URL url = null;
@@ -63,7 +63,7 @@ public class BankImplService extends Service {
 	 */
 	@WebEndpoint(name = "BankImplPort")
 	public BankPort getBankImplPort() {
-		return super.getPort(new QName("http://bank/", "BankImplPort"),
+		return super.getPort(new QName("http://banksystem/", "BankImplPort"),
 				BankPort.class);
 	}
 
@@ -78,7 +78,7 @@ public class BankImplService extends Service {
 	 */
 	@WebEndpoint(name = "BankImplPort")
 	public BankPort getBankImplPort(WebServiceFeature... features) {
-		return super.getPort(new QName("http://bank/", "BankImplPort"),
+		return super.getPort(new QName("http://banksystem/", "BankImplPort"),
 				BankPort.class, features);
 	}
 

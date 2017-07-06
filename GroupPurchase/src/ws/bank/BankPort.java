@@ -36,9 +36,9 @@ public interface BankPort {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-    @RequestWrapper(localName = "transfer", targetNamespace = "http://bank/", className = "ws.bank.Transfer")
-    @ResponseWrapper(localName = "transferResponse", targetNamespace = "http://bank/", className = "ws.bank.TransferResponse")
-    @Action(input = "http://bank/BankPort/transferRequest", output = "http://bank/BankPort/transferResponse")
+    @RequestWrapper(localName = "transfer", targetNamespace = "http://banksystem/", className = "ws.bank.Transfer")
+    @ResponseWrapper(localName = "transferResponse", targetNamespace = "http://banksystem/", className = "ws.bank.TransferResponse")
+    @Action(input = "http://banksystem/BankPort/transferRequest", output = "http://banksystem/BankPort/transferResponse")
     public boolean transfer(
             @WebParam(name = "account", targetNamespace = "")
                     String account,
@@ -58,9 +58,9 @@ public interface BankPort {
      */
     @WebMethod
     @WebResult(name = "recordList", targetNamespace = "")
-    @RequestWrapper(localName = "listHistory", targetNamespace = "http://bank/", className = "ws.bank.ListHistory")
-    @ResponseWrapper(localName = "listHistoryResponse", targetNamespace = "http://bank/", className = "ws.bank.ListHistoryResponse")
-    @Action(input = "http://bank/BankPort/listHistoryRequest", output = "http://bank/BankPort/listHistoryResponse")
+    @RequestWrapper(localName = "listHistory", targetNamespace = "http://banksystem/", className = "ws.bank.ListHistory")
+    @ResponseWrapper(localName = "listHistoryResponse", targetNamespace = "http://banksystem/", className = "ws.bank.ListHistoryResponse")
+    @Action(input = "http://banksystem/BankPort/listHistoryRequest", output = "http://banksystem/BankPort/listHistoryResponse")
     public List<Record> listHistory(
             @WebParam(name = "account", targetNamespace = "")
                     String account,
