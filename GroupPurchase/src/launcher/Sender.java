@@ -19,7 +19,7 @@ public class Sender implements ShortMessageSender {
     private JmsTemplate jmsTemplate;
 
     public boolean sendMessage(String to, String body){
-        System.out.println("向"+to+"发送一条短信：验证码是"+body);
+        System.out.println(to+body);
         try {
             jmsTemplate.convertAndSend("mailbox", new Email(to, body));
         }catch (JmxException | JmsException e) {
