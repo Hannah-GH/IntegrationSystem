@@ -38,9 +38,8 @@ public class ServerLauncher {
 		//创建团购管理系统
 		//【注意 GroupPurchaseManagementSystem团购管理系统 将简写为GPMS!】
 		gpms = GroupPurchaseManagementSystemFactory.createGroupPurchaseManagementSystem(messageSystem, bank);
-		
-		//预先放置一点数据进去，零售客户端也是通过这个方法来发布商品的
-		gpms.publishGroupPurchaseItem("_seller_a_s3cret_k3y", "长矛", "捡的", 200, 120);
+
+		//gpms.publishGroupPurchaseItem("_seller_a_s3cret_k3y", "长矛", "捡的", 200, 120);
 		
 		//设置RMI，这部分功能将提供给 【团购客户端】 来使用
 		setUpRMI(gpms);

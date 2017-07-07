@@ -12,17 +12,18 @@ import java.util.List;
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public class BankImpl implements Bank {
 
-    List<Record> localRecord = new ArrayList<>();
+    ArrayList<Record> localRecord = new ArrayList<>();
 
     @Override
     public MyList listHistory(String account, String password) {
         ArrayList<Record> list = new ArrayList<>();
         for(Record r : localRecord) {
-            if(r.getFrom().equals(account))
+            if(r.getFrom().equals(account) || r.getTarget().equals(account))
                 list.add(r);
         }
         MyList result = new MyList();
         result.setHistoryList(list);
+        result.setHistoryList(localRecord);
         return result;
     }
 

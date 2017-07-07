@@ -28,8 +28,6 @@ public class HistoryListener implements ActionListener{
 
 		List<Record> records = temp.getHistoryList();
 
-		System.out.print(records.size());
-
 		StringBuilder builder = new StringBuilder();
 		for( Record r: records ){
 			String s = r.getFrom()+" -> "+r.getTarget()+" ("+r.getAmount()+")\n";
