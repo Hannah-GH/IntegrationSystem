@@ -5,8 +5,8 @@ import assignment3.ShortMessageSender;
 import assignment3.ShortMessageSenderFactory;
 import util.Logger;
 import util.SideType;
-import ws.bank.BankImplService;
-import ws.bank.BankPort;
+import ws.banksystem.Bank;
+import ws.banksystem.BankImplService;
 
 /**
  * 用来建立系统和外部系统的连接，其实就是远程系统代理的一个获取类
@@ -41,20 +41,16 @@ public class SystemLinker {
 	 * 获取银行系统的远程代理
 	 * @return
 	 */
-	public BankSystem getBankSystem(){
-		if( bank == null ){
-			try{
-				BankPort bankPort = new BankImplService().getBankImplPort();
-				BankSystem bank = new BankProxy(bankPort);
-				return bank;
-			}catch(Exception e){
-				Logger.log(SideType.团购服务器, "无法与银行服务器建立WSDL连接！请检查银行服务是否开启", e, this);
-				//没有什么替代方案，只能停止系统了
-				Logger.log(SideType.团购服务器, "启动终止", this);
-				System.exit(0); 
-			}
+	public static BankSystem getBankSystem(){
+		BankSystem bank = null;
+		try{
+			Bank bankPort = new BankImplService().getBankImplPort();
+			bank = new MyBank(bankPort);
+			return bank;
+		}catch(Exception e){
+			System.out.println("无法与银行服务器建立WSDL连接！请检查银行服务是否开启");
+			System.exit(0);
 		}
-		
 		return bank;
 	}
 }

@@ -1,17 +1,15 @@
 package util;
 
-import org.dom4j.Document;
-import org.dom4j.DocumentException;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.LinkedList;
 import java.util.List;
-
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
 
 /**
  * 配置管理器，专门读取配置文件，提供给系统的各个部分访问可配置的信息
@@ -19,7 +17,7 @@ import java.util.List;
  *
  */
 public class ConfigManager {
-	private static String CONFIGPATH = "/Users/guhan/Documents/IntegrationSystem/Retail/config/config.xml";
+	private static String CONFIGPATH = "/Users/phoebegl/Desktop/IntegrationSystem/Retail/config/config.xml";
 	
 	private static List<Pair> dic = new LinkedList<Pair>();
 	
