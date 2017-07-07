@@ -1,5 +1,7 @@
 package banksystem;
 
+import java.util.ArrayList;
+
 /**
  * Created by phoebegl on 2017/7/6.
  */
@@ -9,9 +11,10 @@ public class Record {
     private String target;
     private double amount;
 
-    public Record() {}
+    public Record() {
+    }
 
-    public Record(String from,String target,double amount) {
+    public Record(String from, String target, double amount) {
         this.from = from;
         this.target = target;
         this.amount = amount;
@@ -40,4 +43,5 @@ public class Record {
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
 }

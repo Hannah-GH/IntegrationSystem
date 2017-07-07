@@ -15,12 +15,14 @@ public class BankImpl implements Bank {
     List<Record> localRecord = new ArrayList<>();
 
     @Override
-    public ArrayList<Record> listHistory(String account, String password) {
-        ArrayList<Record> result = new ArrayList<>();
+    public MyList listHistory(String account, String password) {
+        ArrayList<Record> list = new ArrayList<>();
         for(Record r : localRecord) {
             if(r.getFrom().equals(account))
-                result.add(r);
+                list.add(r);
         }
+        MyList result = new MyList();
+        result.setHistoryList(list);
         return result;
     }
 

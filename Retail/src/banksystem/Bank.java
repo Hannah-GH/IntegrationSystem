@@ -37,29 +37,29 @@ public interface Bank {
     @WebResult(partName = "return")
     @Action(input = "http://banksystem/Bank/transferRequest", output = "http://banksystem/Bank/transferResponse")
     public boolean transfer(
-            @WebParam(name = "arg0", partName = "arg0")
-                    String arg0,
-            @WebParam(name = "arg1", partName = "arg1")
-                    String arg1,
-            @WebParam(name = "arg2", partName = "arg2")
-                    String arg2,
-            @WebParam(name = "arg3", partName = "arg3")
-                    double arg3);
+        @WebParam(name = "arg0", partName = "arg0")
+        String arg0,
+        @WebParam(name = "arg1", partName = "arg1")
+        String arg1,
+        @WebParam(name = "arg2", partName = "arg2")
+        String arg2,
+        @WebParam(name = "arg3", partName = "arg3")
+        double arg3);
 
     /**
      * 
      * @param arg1
      * @param arg0
      * @return
-     *     returns banksystem.ArrayList
+     *     returns banksystem.MyList
      */
     @WebMethod
     @WebResult(partName = "return")
     @Action(input = "http://banksystem/Bank/listHistoryRequest", output = "http://banksystem/Bank/listHistoryResponse")
-    public ArrayList listHistory(
-            @WebParam(name = "arg0", partName = "arg0")
-                    String arg0,
-            @WebParam(name = "arg1", partName = "arg1")
-                    String arg1);
+    public MyList listHistory(
+        @WebParam(name = "arg0", partName = "arg0")
+        String arg0,
+        @WebParam(name = "arg1", partName = "arg1")
+        String arg1);
 
 }

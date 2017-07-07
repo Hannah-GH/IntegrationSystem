@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public interface Bank {
 
     @WebMethod
-    ArrayList<Record> listHistory(String account, String password);
+    MyList listHistory(String account, String password);
 
     @WebMethod
     boolean transfer(String account,String password,String target,double amount);

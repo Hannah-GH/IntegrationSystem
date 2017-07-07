@@ -997,5 +997,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="appframework-1.0.3" level="application" />
   </component>
 </module>
