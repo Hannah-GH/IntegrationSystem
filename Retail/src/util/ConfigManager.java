@@ -13,7 +13,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class ConfigManager {
-	private static String CONFIGPATH = "/Users/phoebegl/Desktop/IntegrationSystem/Retail/config/config.xml";
+	private static String CONFIGPATH = "/Users/guhan/Documents/IntegrationSystem/Retail/config/config.xml";
 	
 	private static List<Pair> dic = new LinkedList<Pair>();
 	
