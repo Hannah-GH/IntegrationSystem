@@ -1,6 +1,8 @@
-package hello;
+package jms;
 
-public class Email {
+import java.io.Serializable;
+
+public class Email implements Serializable {
 
     private String to;
     private String body;
@@ -31,7 +33,7 @@ public class Email {
 
     @Override
     public String toString() {
-        return String.format("main.hello.Email{to=%s, body=%s}", getTo(), getBody());
+        return String.format("main.jms.Email{to=%s, body=%s}", getTo(), getBody());
     }
 
 }

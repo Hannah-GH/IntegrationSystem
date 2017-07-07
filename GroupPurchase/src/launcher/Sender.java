@@ -1,5 +1,7 @@
-package hello;
+package launcher;
 
+import assignment3.ShortMessageSender;
+import jms.Email;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.JmsException;
 import org.springframework.jms.core.JmsTemplate;
@@ -11,7 +13,7 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-public class Sender {
+public class Sender implements ShortMessageSender {
 
     @Autowired
     private JmsTemplate jmsTemplate;
@@ -21,7 +23,8 @@ public class Sender {
         try {
             jmsTemplate.convertAndSend("mailbox", new Email(to, body));
         }catch (JmxException | JmsException e) {
-            return false;
+            e.printStackTrace();
+//            return false;
         }
         return true;
     }
