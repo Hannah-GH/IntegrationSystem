@@ -20,7 +20,7 @@ import util.ConfigManager;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "BankImplService", targetNamespace = "http://banksystem/", wsdlLocation = "http://localhost:8082/ws/bank?wsdl")
+@WebServiceClient(name = "BankImplService", targetNamespace = "http://banksystem/") //, wsdlLocation = "http://localhost:8082/ws/bank?wsdl"
 public class BankImplService
     extends Service
 {
@@ -33,10 +33,9 @@ public class BankImplService
         URL url = null;
         WebServiceException e = null;
         try {
-        	String urlStr = ConfigManager.getValue("bankwsdl");
-			url = new URL(urlStr);
-        } catch (MalformedURLException ex) {
-            e = new WebServiceException(ex);
+            url = new URL("http://localhost:8081/banksystem");
+        } catch (MalformedURLException e1) {
+            e1.printStackTrace();
         }
         BANKIMPLSERVICE_WSDL_LOCATION = url;
         BANKIMPLSERVICE_EXCEPTION = e;

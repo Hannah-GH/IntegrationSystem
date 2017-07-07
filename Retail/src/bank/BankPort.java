@@ -38,7 +38,7 @@ public interface BankPort {
     @WebResult(name = "result", targetNamespace = "")
     @RequestWrapper(localName = "transfer", targetNamespace = "http://banksystem/", className = "retail.bank.Transfer")
     @ResponseWrapper(localName = "transferResponse", targetNamespace = "http://banksystem/", className = "retail.bank.TransferResponse")
-    @Action(input = "http://bank/BankPort/transferRequest", output = "http://bank/BankPort/transferResponse")
+    @Action(input = "http://banksystem/Bank/transferRequest", output = "http://banksystem/Bank/transferResponse")
     public boolean transfer(
             @WebParam(name = "account", targetNamespace = "")
                     String account,
@@ -60,11 +60,10 @@ public interface BankPort {
     @WebResult(name = "recordList", targetNamespace = "")
     @RequestWrapper(localName = "listHistory", targetNamespace = "http://banksystem/", className = "retail.bank.ListHistory")
     @ResponseWrapper(localName = "listHistoryResponse", targetNamespace = "http://banksystem/", className = "retail.bank.ListHistoryResponse")
-    @Action(input = "http://bank/BankPort/listHistoryRequest", output = "http://bank/BankPort/listHistoryResponse")
+    @Action(input = "http://banksystem/Bank/listHistoryRequest", output = "http://banksystem/Bank/listHistoryResponse")
     public List<Record> listHistory(
             @WebParam(name = "account", targetNamespace = "")
                     String account,
             @WebParam(name = "password", targetNamespace = "")
                     String password);
-
 }

@@ -80,7 +80,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link ListHistoryResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bank/", name = "listHistoryResponse")
+    @XmlElementDecl(namespace = "http://banksystem/", name = "listHistoryResponse")
     public JAXBElement<ListHistoryResponse> createListHistoryResponse(ListHistoryResponse value) {
         return new JAXBElement<ListHistoryResponse>(_ListHistoryResponse_QNAME, ListHistoryResponse.class, null, value);
     }
@@ -89,7 +89,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link Transfer }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bank/", name = "transfer")
+    @XmlElementDecl(namespace = "http://banksystem/", name = "transfer")
     public JAXBElement<Transfer> createTransfer(Transfer value) {
         return new JAXBElement<Transfer>(_Transfer_QNAME, Transfer.class, null, value);
     }
@@ -98,7 +98,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link TransferResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bank/", name = "transferResponse")
+    @XmlElementDecl(namespace = "http://banksystem/", name = "transferResponse")
     public JAXBElement<TransferResponse> createTransferResponse(TransferResponse value) {
         return new JAXBElement<TransferResponse>(_TransferResponse_QNAME, TransferResponse.class, null, value);
     }
@@ -107,7 +107,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link ListHistory }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bank/", name = "listHistory")
+    @XmlElementDecl(namespace = "http://banksystem/", name = "listHistory")
     public JAXBElement<ListHistory> createListHistory(ListHistory value) {
         return new JAXBElement<ListHistory>(_ListHistory_QNAME, ListHistory.class, null, value);
     }
