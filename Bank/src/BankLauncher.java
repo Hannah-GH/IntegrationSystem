@@ -8,7 +8,7 @@ import javax.xml.ws.Endpoint;
 public class BankLauncher {
 
     public static void main(String[] args) {
-        Endpoint.publish("http://localhost:8081/banksystem", new BankImpl());
+        Endpoint.publish("http://192.168.0.105:8081/banksystem", new BankImpl());
         System.out.println("银行系统启动成功!");
     }
 

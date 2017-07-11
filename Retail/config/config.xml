@@ -12,7 +12,7 @@
 		<pair>
 			<!-- 本地Independent Systems地址 -->
 			<key>ISYS_LOCAL</key>
-			<value>127.0.0.1</value>
+			<value>192.168.0.100</value>
 		</pair>
 
 		<pair>
@@ -30,7 +30,7 @@
 	
 	<!-- 银行系统提供的WSDL地址 -->
 	<bankwsdl>
-		http://localhost:8081/banksystem
+		http://192.168.0.105:8081/banksystem
 	</bankwsdl>
 
 	<!-- 向外提供的团购管理系统WSDL地址 -->
@@ -39,7 +39,7 @@
 	</gpmswsdl>
 
 	<!-- RMI所使用的监听地址与端口 -->
-	<rmi>rmi://:8809/gpms</rmi>
+	<rmi>//192.168.0.105:8809/gpms</rmi>
 	<rmiport>8809</rmiport>
 
 	<!-- jms配置 -->

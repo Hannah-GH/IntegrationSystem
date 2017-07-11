@@ -30,11 +30,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ArrayList }
+     * Create an instance of {@link MyList }
      * 
      */
-    public ArrayList createArrayList() {
-        return new ArrayList();
+    public MyList createMyList() {
+        return new MyList();
+    }
+
+    /**
+     * Create an instance of {@link Record }
+     * 
+     */
+    public Record createRecord() {
+        return new Record();
     }
 
 }

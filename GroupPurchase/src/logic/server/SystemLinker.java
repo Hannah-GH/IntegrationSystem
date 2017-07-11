@@ -8,6 +8,8 @@ import util.SideType;
 import ws.banksystem.Bank;
 import ws.banksystem.BankImplService;
 
+import java.net.URL;
+
 /**
  * 用来建立系统和外部系统的连接，其实就是远程系统代理的一个获取类
  * @author luMinO
@@ -44,7 +46,8 @@ public class SystemLinker {
 	public static BankSystem getBankSystem(){
 		BankSystem bank = null;
 		try{
-			Bank bankPort = new BankImplService().getBankImplPort();
+			URL url = new URL("http://192.168.0.105:8081/banksystem?wsdl");
+			Bank bankPort = new BankImplService(url).getBankImplPort();
 			bank = new MyBank(bankPort);
 			return bank;
 		}catch(Exception e){

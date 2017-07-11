@@ -37,14 +37,14 @@ public interface Bank {
     @WebResult(partName = "return")
     @Action(input = "http://banksystem/Bank/transferRequest", output = "http://banksystem/Bank/transferResponse")
     public boolean transfer(
-        @WebParam(name = "arg0", partName = "arg0")
-        String arg0,
-        @WebParam(name = "arg1", partName = "arg1")
-        String arg1,
-        @WebParam(name = "arg2", partName = "arg2")
-        String arg2,
-        @WebParam(name = "arg3", partName = "arg3")
-        double arg3);
+            @WebParam(name = "arg0", partName = "arg0")
+                    String arg0,
+            @WebParam(name = "arg1", partName = "arg1")
+                    String arg1,
+            @WebParam(name = "arg2", partName = "arg2")
+                    String arg2,
+            @WebParam(name = "arg3", partName = "arg3")
+                    double arg3);
 
     /**
      * 
@@ -57,9 +57,9 @@ public interface Bank {
     @WebResult(partName = "return")
     @Action(input = "http://banksystem/Bank/listHistoryRequest", output = "http://banksystem/Bank/listHistoryResponse")
     public MyList listHistory(
-        @WebParam(name = "arg0", partName = "arg0")
-        String arg0,
-        @WebParam(name = "arg1", partName = "arg1")
-        String arg1);
+            @WebParam(name = "arg0", partName = "arg0")
+                    String arg0,
+            @WebParam(name = "arg1", partName = "arg1")
+                    String arg1);
 
 }
