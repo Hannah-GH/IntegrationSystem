@@ -83,10 +83,10 @@ public class RetailPanel extends JPanel {
 		JTextField limit = addInputFields("数量上限", publishPanel);
 		
 		//输入预设
-		name.setText("摩托车");
-		intro.setText("已报废");
-		price.setText("50");
-		limit.setText("2");
+		name.setText("可口可乐");
+		intro.setText("好喝");
+		price.setText("2");
+		limit.setText("50");
 
 		PublishListener listener = new PublishListener();
 		listener.setInputFields(name, intro, price, limit);

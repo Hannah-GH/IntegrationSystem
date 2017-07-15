@@ -18,7 +18,7 @@ public class MyBank {
     public static Bank getBank(){
         if( bank == null ) {
             try{
-                URL url = new URL("http://192.168.0.105:8081/banksystem?wsdl");
+                URL url = new URL("http://192.168.43.49:8081/banksystem?wsdl");
                 bank = new BankImplService(url).getBankImplPort();
             }catch(Exception e){
                 System.out.println("无法与银行服务器建立WSDL连接！请检查银行服务是否开启");

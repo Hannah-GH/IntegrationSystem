@@ -33,7 +33,8 @@ RMI部分的实现：
 接收团购系统发送过来的验证码，并在短信系统中输出。
 
 #### Retail-GPMS
-使用Web Service技术，零售端作为团购系统的客户端，调用GPMS提供的确认购买，以及向GPMS发布团购商品信息。
+零售端作为团购系统的客户端，调用GPMS提供的确认购买，以及向GPMS发布团购商品信息。
+使用Web Service技术，这里使用JAX-WS实现对远程方法的调用。服务器端通过@WebService等注解标注类与方法,然后定义WebService的发布地址，这个地址就是提供给外界访问Webervice的URL地址。客户端可通过JWS自带的wsimport命令在客户端本地生成代码供客户端访问调用,以其实现对服务器方法的调用管理(自动生成的代码在gpms中)
 
 #### Retail-Bank
 使用Web Service技术

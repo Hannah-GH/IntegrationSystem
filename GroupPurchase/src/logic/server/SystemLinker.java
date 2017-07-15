@@ -46,7 +46,7 @@ public class SystemLinker {
 	public static BankSystem getBankSystem(){
 		BankSystem bank = null;
 		try{
-			URL url = new URL("http://192.168.0.105:8081/banksystem?wsdl");
+			URL url = new URL("http://192.168.43.49:8081/banksystem?wsdl");
 			Bank bankPort = new BankImplService(url).getBankImplPort();
 			bank = new MyBank(bankPort);
 			return bank;

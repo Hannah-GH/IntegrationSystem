@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "BankImplService", targetNamespace = "http://banksystem/", wsdlLocation = "http://192.168.0.105:8081/banksystem?wsdl")
+@WebServiceClient(name = "BankImplService", targetNamespace = "http://banksystem/", wsdlLocation = "http://192.168.43.49:8081/banksystem?wsdl")
 public class BankImplService
     extends Service
 {
@@ -30,7 +30,7 @@ public class BankImplService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://192.168.0.105:8081/banksystem?wsdl");
+            url = new URL("http://192.168.43.49:8081/banksystem?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
