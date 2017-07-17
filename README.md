@@ -37,13 +37,20 @@ RMI部分的实现：
 使用Web Service技术，这里使用JAX-WS实现对远程方法的调用。服务器端通过@WebService等注解标注类与方法,然后定义WebService的发布地址，这个地址就是提供给外界访问Webervice的URL地址。客户端可通过JWS自带的wsimport命令在客户端本地生成代码供客户端访问调用,以其实现对服务器方法的调用管理(自动生成的代码在gpms中)
 
 #### Retail-Bank
-使用Web Service技术
+使用Web Service技术，类似上面这里不赘述
 
 #### Bank-GPMS
-使用Web Service技术
+使用Web Service技术，类似上面这里不赘述
 
 #### GPMS-ShortMessage
 使用JMS技术
+短信系统的使用方法如下：
+①必须先安装ActiveMQ，下载地址：http://activemq.apache.org， 按照官网说明安装和运行ActiveMQ
+②运行成功后应该可以访问 http://localhost:8161/admin，初始用户名/密码为：admin/admin
+③运行Application类，本程序开始监听短信
+④复制Sender类到团购系统中，调用sender中的方法发送信息
+⑤本程序显示接受到的短信内容
 
 
 ## 集成时遇到的问题
+在同一局域网的不同计算机上分别部署几个项目时的集成问题
